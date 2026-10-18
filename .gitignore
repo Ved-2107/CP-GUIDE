@@ -1,0 +1,22 @@
+# Ignore student/mentee submission folders
+/[0-9][0-9][bB]*
+Mentee_List.pdf
+README_original_SOC.md
+
+# Ignore all Resources except those relevant to Module 1 / Fundamentals
+Resources/*
+!Resources/01-introduction.pdf
+!Resources/Basic Info.pdf
+!Resources/Competitive Programmer_s Handbook.pdf
+
+# Build and binary files
+*.exe
+*.o
+*.obj
+*.out
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
